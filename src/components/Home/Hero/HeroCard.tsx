@@ -23,7 +23,11 @@ export default function NFTCard({ data, index }: { data: NFTItem, index: number 
 						<p className='font-bold'>{user}</p>
 					</div>
 				</div>
-				<div className='flex justify-between items-center rounded-xl backdrop-blur-3xl p-3 shadow-md'>
+				<div style={{
+					boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+					backdropFilter: 'blur(19px)',
+					WebkitBackdropFilter: 'blur(16px)',
+				}} className='flex justify-between items-center rounded-xl p-3'>
 					<div>
 						<p className='font-medium text-xs mb-2'>Current Bid</p>
 						<div className='flex gap-2 -ml-1.5'>
