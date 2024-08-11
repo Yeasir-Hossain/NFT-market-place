@@ -1,0 +1,29 @@
+.btn-primary {
+	@apply border-2 border-primary bg-primary hover:bg-primary-darker text-white hover:border-primary-darker
+}
+
+.btn-outline {
+	@apply border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-white
+}
+
+.hover-underline-animation {
+	position: relative;
+}
+
+.hover-underline-animation::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #3D00B7;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
