@@ -56,8 +56,8 @@ export default function Hero() {
 			</div>
 			<div className='lg:w-1/2 flex justify-center items-center'>
 				<div className={'relative'}>
-					<div className='hidden lg:absolute bottom-[95px] left-[-50px] z-[999]'>
-						<Image src={'/live.png'} alt='' height={101} width={101} className='animate-spin-slow z-[99]' />
+					<div data-aos='fade-left' className='hidden lg:block absolute bottom-[95px] left-[-150px] z-[999]'>
+						<Image src={'/live.png'} alt='' height={101} width={101} className='animate-spin-slow z-[1000]' />
 					</div>
 					<div className={'flex -space-x-[300px] md:-space-x-[450px]'}>
 						{

@@ -9,7 +9,7 @@ export default function FeaturedCard() {
         <div data-aos='fade-right' className='col-span-4 flex w-full items-center overflow-hidden rounded-xl'>
           <Image src={'/nft.png'} alt='' width={265} height={272} className='w-full transition-all duration-500 hover:scale-105' />
         </div>
-        <div data-aos='fade-left' className=' grid w-full grid-rows-3 gap-4'>
+        <div data-aos='fade-up' className=' grid w-full grid-rows-3 gap-4'>
           <div className='flex items-center overflow-hidden rounded-xl'>
             <Image src={'/nft2.png'} alt='' width={103} height={85} className='h-full w-full' />
           </div>

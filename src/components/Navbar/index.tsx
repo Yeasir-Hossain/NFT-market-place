@@ -7,7 +7,7 @@ import Button from '../shared/Button';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import SideBar from './SideBar';
 import { integral } from '@/config/fonts';
-import AOS from "aos";
+import AOS from 'aos';
 
 
 
